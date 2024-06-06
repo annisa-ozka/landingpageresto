@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Quicksand:wght@500;700&display=swap");
+
+body {
+  font-family: "Philosopher", sans-serif;
+  margin: 0;
+}
+
+main {
+  background-color: white;
+}
+
+.navbar {
+  background-color: #b70404;
+  display: flex;
+  width: auto;
+  height: 60px;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+
+header.navbar .logo img {
+  width: 50px;
+  margin-top: 5px;
+}
+
+#btn-logo {
+  border: none;
+  background-color: #b70404;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 100%;
+}
+
+#btn-logo:hover {
+  box-shadow: 1px 1px 1px 1px #ffe569;
+}
+
+#pop {
+  color: #db005b;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+nav a:hover {
+  color: #ffe569;
+}
+
+nav ul {
+  justify-content: space-between;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.jumbotron {
+  width: auto;
+  height: 300px;
+  font-size: 30px;
+  color: white;
+  padding: 100px;
+  text-align: center;
+  background-image: url("../image/jumbotron1.jpg");
+}
+
+#content h1 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: #b70404;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#content h3 {
+  color: black;
+  text-align: center;
+  font-size: 23px;
+}
+
+#daftarmenu {
+  display: flex;
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#menulain {
+  display: flex;
+  margin-left: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: fit-content;
+  border-radius: 5%;
+  background-color: #db005b;
+  padding: 5px 15px;
+}
+
+#menulain:hover {
+  background-color: #ffe569;
+  color: black;
+}
+
+.infomenu {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.infotoko {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.tentangkami {
+  flex-direction: row;
+}
+
+#tentangkami img {
+  width: 20%;
+  height: 150px;
+  padding-left: 33px;
+  padding-right: 28px;
+  padding-top: 10px;
+}
+
+.kami {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 12px;
+}
+
+.kami p {
+  font-size: 29px;
+  margin: 0px;
+  line-height: 1.3em;
+  text-indent: 1.5em;
+  text-align: justify;
+  padding-right: 5%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  object-fit: cover;
+  width: 300px;
+  height: 130px;
+  padding: 10px;
+}
+
+.card img {
+  margin-left: 35px;
+  margin-right: 30px;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.card p {
+  margin: 15px;
+  text-align: justify;
+}
+
+.card2 p {
+  margin: 10px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #b70404;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5px;
+}
+
+.aside {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#span2 {
+  width: 150px;
+  height: 40px;
+  background-color: #ffe569;
+  text-align: center;
+  font-size: medium;
+  position: fixed;
+  top: 24.5%;
+  right: auto;
+  border-style: double;
+  border-color: #db005b;
+  border-width: 3px 0px 3px 3px;
+}
+
+#span2 h2 {
+  margin: 0px;
+}
+
+aside {
+  width: 300px;
+  height: 400px;
+  background-color: #ffe569;
+  text-align: center;
+  position: fixed;
+  top: 24.5%;
+  right: 0px;
+  display: none;
+  border-style: dotted;
+  border-width: 4px;
+  border-color: #db005b;
+}
+
+aside h4 {
+  color: black;
+  text-align: center;
+}
+
+#span2:hover + aside {
+  display: block;
+}
+
+aside img {
+  width: 230px;
+  height: 180px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.foodpro p {
+  margin: 3px;
+}
+
+.katering {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.katering img {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
+
+.btn-wa {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(177, 255, 177);
+  border-radius: 60px;
+  max-width: fit-content;
+  height: 60px;
+}
+
+button:hover {
+  color: blue;
+}
+
+span {
+  margin-top: 35px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 1267px) {
+  .card {
+    min-width: 350px;
+    max-width: 350px;
+    justify-content: center;
+  }
+  .card img {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    margin-left: 40px;
+  }
+  #menulain {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 704px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .infomenu {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  #menulain {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 796px) {
+  .kami {
+    display: block;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 12px;
+  }
+  #tentangkami img {
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-left: 32%;
+  }
+  #menulain {
+    margin-left: 27%;
+  }
+}
